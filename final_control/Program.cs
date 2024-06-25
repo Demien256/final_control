@@ -63,3 +63,10 @@ void Commands()
     Console.WriteLine("3 – использовать массив: [“Russia”, “Denmark”, “Kazan”]");
     Console.WriteLine();
 }
+
+// Функция ввода
+string ReadInput(string msg)
+{
+    Console.Write(msg);
+    return Console.ReadLine();
+}
